@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "869462144282",
+    "firebase_url": "https://naturallis-86d98.firebaseio.com",
+    "project_id": "naturallis-86d98",
+    "storage_bucket": "naturallis-86d98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869462144282:android:e46635e586fc974664a8a3",
+        "android_client_info": {
+          "package_name": "com.example.naturallis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869462144282-ms5aqa5agjafev56talb0kplac4bei94.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.naturallis",
+            "certificate_hash": "c7ec6935c5898a32836c7bcc786cb76658234528"
+          }
+        },
+        {
+          "client_id": "869462144282-ctateemj0selcubf2jnc5iokpogag2d6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4SiJpRDCmwD5nZKmAPxpMR0l2ZBISk-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869462144282-ctateemj0selcubf2jnc5iokpogag2d6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

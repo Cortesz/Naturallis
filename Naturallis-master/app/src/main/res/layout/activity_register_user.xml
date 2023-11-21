@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUser">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="Criar Conta"
+        android:textColor="#15B18C"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="308dp"
+        android:layout_height="55dp"
+        android:background="@drawable/border_rounded"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto_light"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <Spinner
+        android:id="@+id/spin"
+        android:layout_width="308dp"
+        android:layout_height="55dp"
+        android:background="@drawable/border_rounded"
+        android:entries="@array/Veg"
+        android:popupBackground="@drawable/button"
+        android:spinnerMode="dialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtPassword"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <Spinner
+        android:id="@+id/spin2"
+        android:layout_width="308dp"
+        android:layout_height="55dp"
+        android:background="@drawable/border_rounded"
+        android:entries="@array/Sexo"
+        android:popupBackground="@drawable/button"
+        android:spinnerMode="dialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spin"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="308dp"
+        android:layout_height="55dp"
+        android:background="@drawable/border_rounded"
+        android:drawableLeft="@drawable/ic_https_grey_24dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto_light"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtEmail"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <EditText
+        android:id="@+id/edtObs"
+        android:layout_width="308dp"
+        android:layout_height="55dp"
+        android:background="@drawable/border_rounded"
+        android:ems="10"
+        android:fontFamily="@font/roboto_light"
+        android:hint="Observações(Doenças, Alergias...)"
+        android:inputType="text"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spin2"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="308dp"
+        android:layout_height="55dp"
+        android:background="@drawable/border_rounded"
+        android:drawableLeft="@drawable/ic_email_grey_24dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto_light"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtName"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="254dp"
+        android:layout_height="52dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/roboto"
+        android:onClick="Register"
+        android:text="cadastrar"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spin2"
+        app:layout_constraintVertical_bias="0.886" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/mountain2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="472dp"
+        android:layout_height="177dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/montain" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055"
+        app:srcCompat="@drawable/ic_arrowgreen" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

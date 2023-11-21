@@ -1,0 +1,129 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Naturallis</string>
+
+    <string name="title_activity_login">Login</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string-array name="Veg">
+        <item name="standard">Vegetariano:</item>
+        <item name="yes">Sou vegetariano</item>
+        <item name="no">Não sou vegetariano</item>
+    </string-array>
+
+
+    <string-array name="Sexo">
+        <item name="standard">Sexo:</item>
+        <item name="yes">Masculino</item>
+        <item name="no">Feminino</item>
+    </string-array>
+
+    <string-array name="category">
+        <item name="standard">Categoria da dieta:</item>
+        <item name="veg">Dieta vegetariana</item>
+        <item name="noVeg">Dieta não vegetariana</item>
+    </string-array>
+
+    <string-array name="testeDieta">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+
+    <string-array name="breakOvo">
+        <item> CAFÉ DA MANHÃ: </item>
+        <item>• Tapioca recheada com ovos mexidos</item>
+        <item>• 1 banana amassada com pasta de castanha de caju</item>
+        <item>• 3 bolachas pequenas de arroz integral com tofu amassado</item>
+    </string-array>
+
+    <string-array name="launchOvo">
+        <item> ALMOÇO: </item>
+        <item>• Salada de folhas e nozes</item>
+        <item>• Macarrão com grãos e vegetais</item>
+        <item>• 4 col. (sopa) de lentilha</item>
+    </string-array>
+
+    <string-array name="dinnerOvo">
+        <item>JANTAR:</item>
+        <item>• Salada mista de folhas coloridas (alface, rúcula, radiccio)</item>
+        <item tools:ignore="TypographyFractions">• Omelete: 2 ovos, 1/2 tomate picado e folhas frescas de manjericão</item>
+    </string-array>
+
+
+    <string-array name="breakLow">
+        <item> CAFÉ DA MANHÃ: </item>
+        <item>• Iogurte Desnatado</item>
+        <item>• 20 g de Coco</item>
+        <item>• 14 g de albumina</item>
+    </string-array>
+
+    <string-array name="launchLow">
+        <item> ALMOÇO: </item>
+        <item>• 5 ovos cozidos</item>
+        <item>• 200 g de lentilha cozida</item>
+        <item>• 60g de queijo minas</item>
+    </string-array>
+
+    <string-array name="dinnerLow">
+        <item>JANTAR:</item>
+        <item>• Sopa de brocólis com queijo</item>
+    </string-array>
+
+
+    <string-array name="breakLac">
+        <item> CAFÉ DA MANHÃ: </item>
+        <item>• Mix de frutas</item>
+        <item>• Castanhas e sementes </item>
+        <item>• 2 col. de abacate com 1 col. de mel</item>
+    </string-array>
+
+    <string-array name="launchLac">
+        <item> ALMOÇO: </item>
+        <item>• Salada de Grão de bico</item>
+        <item>• Albumina</item>
+    </string-array>
+
+    <string-array name="dinnerLac">
+        <item>JANTAR:</item>
+        <item>• Suflê de Chuchu</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="text">
+        - 1/2 maço de espinafre lavado \n
+        - 1 colher sopa de margarina \n
+        - 1 cebola pequena picada \n
+        - Alho a gosto \n
+        - 2 colheres (sopa) de maisena \n
+        - 1/2 litro de leite \n
+        - 1 lata de creme de leite \n
+        - 100 g de parmesão ralado
+    </string>
+
+
+    <string name="text1">
+        - Afervente as folhas de espinafre em água e sal, por aproximadamente 4 minutos. \n
+        - Escorra, esprema e pique-as. \n
+        - Em uma panela, aqueça a margarina, refogue a cebola e o alho, junte o espinafre.\n
+        - Acrescente a maisena diluída no leite, mexa até engrossar. \n
+        - Desligue o fogo, misture o creme de leite e o queijo ralado. \n
+        - Servir com arroz branco e file de carne ou frango.
+    </string>
+    <string name="title_activity_ovolacto">Ovolacto</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
