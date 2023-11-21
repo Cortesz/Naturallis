@@ -1,7 +1,7 @@
 # Naturallis
 Aplicativo realizado como projeto de conclusão de curso do ensino técnico focado na criação de dietas e auxílio a pessoas que desejam aderir a dieta vegana ou vegetariana
  
-#Aplicativo
+# Aplicativo
 Muitos aplicativos relacionados ao vegetarianismo apresentam somente receitas ou progressos envolvendo a contagem de quantos dias o cliente está sem comer algum tipo de carne, mas carecem de funcionalidades e praticidade para auxiliar os interessados em tornar-se vegetariano ou que já começaram a ter controle e foco na adaptação com o novo padrão de alimentação.
 
 O desenvolvimento do aplicativo se justifica pela falta de apoio pra quem deseja iniciar um estilo de alimentação vegetariana, localização de restaurantes próximos ao cliente que se dedica a cozinha vegetariana ou contam com opções para quem segue o cardápio. É possível filtrar as buscas de acordo com seu estilo de vida e também com a categoria procurada
